@@ -1,5 +1,5 @@
 import re
 
 txt    = input("Enter : ")
-result = re.search(r"\ba.*b$\b", txt)
+result = re.sub("[ ,.]", ":", txt)
 print(result)
